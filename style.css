@@ -1,22 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Inter:wght@400;500;600&family=New+Tegomin&family=Roboto&display=swap');
 
-.navbarFont{
-font-family: 'Inter', sans-serif;
-font-weight: 600;
-font-size: 14px;
-letter-spacing: 1.5px;
+.navbarFont {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
-.navbarFont:hover{
+
+.navbarFont:hover {
     color: #3f8efc;
     cursor: pointer;
 }
-.navbarFont:active{
+
+.navbarFont:active {
     color: #3f8efc;
 }
-.nav-icon i:hover{
+
+.nav-icon i:hover {
     color: #3f8efc;
     cursor: pointer;
 }
-.nav-icon i{
-color: black;
+
+.nav-icon i {
+    color: black;
+}
+
+.second-section {
+    height: 750px;
+    background-color: rgb(217, 232, 254);
+}
+
+.second-se-left {
+    margin: 160px 0px 0px 230px;
+    width: 30%;
+}
+
+.second-se-left span {
+    color: #3f8efc;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 19px;
+}
+.second-se-left h1{
+    width: 90%;
+    margin: 25px 0px 0px 0px;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+}
+.second-se-left p{
+    margin-top: 35px;
+    word-spacing: 5px;
+font-size: 19px;
+--bs-text-opacity: 1;
+color: rgba(0,0,0,.5)!important;
+}
+.second-se-right{
+    margin: 150px 0px 0px 150px;
+}
+#inputemail{
+    border-radius: 30px;
+    padding: 18px;
+    font-size: 18px;
+}
+#subscribe-btn{
+    margin-top: 20px;
+    border-radius: 25px;
+width: 140px;
+padding: 10px;
+}
+.third-section{
+    height: 500px;
 }
